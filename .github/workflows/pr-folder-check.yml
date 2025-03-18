@@ -27,7 +27,7 @@ jobs:
         SPECIFIC_FILE_MODIFIED=$(jq '.[] | select(.filename == "info/firmware.info.xml")' pr_files.json)
 
         if [ -n "$TMP_OR_DATA_MODIFIED" ] && [ -z "$SPECIFIC_FILE_MODIFIED" ]; then
-          echo "Files in TMP or DATA directories were modified, but the specific file was not modified."
+          echo "You updated an exe file without update the info/firmware.info.xml file."
           exit 1
         else
           echo "All required files were modified as expected."
