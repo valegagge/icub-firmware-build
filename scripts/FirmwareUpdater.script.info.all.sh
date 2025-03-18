@@ -6,7 +6,7 @@
 
 echo ""
 echo ""
-echo ""
+echo "ciao"
 
 echo "this bash is executing: ./manageFWrobot.py -n `yarp resource --from network.$YARP_ROBOT_NAME.xml` -f ../info/firmware.info.xml -p all -a info | tee ../logs/log.of.FirmwareUpdater.$YARP_ROBOT_NAME.info.all.txt"
 echo ""
