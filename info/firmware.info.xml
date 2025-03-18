@@ -16,7 +16,7 @@
         very important: the fields major, minor, build are all expressed in decimal
         format and the FirmwareUpdater application and all .sh / .py scripts also
         use decimal format. however, some file names still have the minor number
-        which may be expressed in hex format. That is the case of boards mc4 and bll.
+        which may be expressed in hex format. That is the case of boards mc4 and bll.bsfgsfgdsfgd
 
   -->
 
